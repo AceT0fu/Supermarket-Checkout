@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Checkout/Item.h
+string
+-
+
+D:/Checkout/Set.cpp
+Set.h
+D:/Checkout/Set.h
+assert.h
+-
+
+D:/Checkout/Set.h
+vector
+-
+Item.h
+D:/Checkout/Item.h
+
+D:/Checkout/main.cpp
+iostream
+-
+sstream
+-
+fstream
+-
+string
+-
+vector
+-
+map
+-
+iomanip
+-
+Item.h
+D:/Checkout/Item.h
+Set.h
+D:/Checkout/Set.h
+
